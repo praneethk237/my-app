@@ -3,6 +3,14 @@ import { Provider } from "./context";
 import Extras from "./components/extras";
 import ExtrasWithoutType from './components/extraswithouttype';
 import './App.css';
+import AppBar from '@mui/material/AppBar';
+// import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+
 
 function App() {
   var mains = [
@@ -291,7 +299,13 @@ function App() {
   return (
     <>
     <div>
+    <Box sx={{ flexGrow: 1 }}>
+      <div style={{color:"white",alignContent:"center",justifyContent:"center",display:"flex",margin:"auto"}}>
+      <h1>Biriyani Times Menu</h1>
+      </div>
       
+    </Box>
+
     </div>
     <Provider>
       <div className="menu">
