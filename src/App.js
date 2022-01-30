@@ -254,7 +254,7 @@ function App() {
   [
     {"name":"Mineral Water Bottle",price:"25" , "isVeg": "yes"  },
     {"name":"Soft Drinks",price:"25" , "isVeg": "yes"  },
-    {"name":"Butter Milk",price:"25" , "isVeg": "yes"  },
+    {"name":"Butter Milk",price:"30" , "isVeg": "yes"  },
   ]
   return (
     <>
