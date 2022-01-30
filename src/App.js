@@ -174,6 +174,29 @@ function App() {
 
 
   ]
+  var nonVegRice = 
+  [
+    {"name":"Hyd Chiken Dum Biriyani (Single)",price:"120" , "isVeg": "no"  },
+{"name":"Hyd Chicken Dum Biriyani (Full)",price:"180" , "isVeg": "no"  },
+{"name":"Hyd. Chicken Dum Biriyani (Family Pack)",price:"400" , "isVeg": "no"  },
+{"name":"Chicken Fry Piece Biriyani",price:"200" , "isVeg": "no"  },
+{"name":"Chicken MOghalai Biriyani (Bone Less)",price:"260" , "isVeg": "no"  },
+{"name":"Chicken Tikka Biriyani",price:"260" , "isVeg": "no"  },
+{"name":"Chicken Special Biriyani (B/L) Family Pack",price:"480" , "isVeg": "no"  },
+{"name":"Chicken Special Biriyani (B/L) Full",price:"250" , "isVeg": "no"  },
+{"name":"Thangdi Biriyani",price:"250" , "isVeg": "no"  },
+{"name":"Tandoori Biriyani",price:"250" , "isVeg": "no"  },
+{"name":"Hyd. Mutton Dum Biriyani (Single)",price:"200" , "isVeg": "no"  },
+{"name":"Hyd. Mutton Dum Biriyani (Full)",price:"280" , "isVeg": "no"  },
+{"name":"Hyd. Mutton Dum Biriyani (Family Pack)",price:"600" , "isVeg": "no"  },
+{"name":"Mutton Special Biriyani (Full)",price:"320" , "isVeg": "no"  },
+{"name":"Egg Biriyani",price:"120" , "isVeg": "no"  },
+{"name":"Fish Biriyani",price:"270" , "isVeg": "no"  },
+{"name":"Prawns Biriyani",price:"270" , "isVeg": "no"  },
+{"name":"Extra Chicken Dum Piece (One)",price:"90" , "isVeg": "no"  },
+{"name":"Biriyani Rice",price:"100" , "isVeg": "no"  },
+{"name":"Mutton Speical Biriyani (Family Pack)",price:"650" , "isVeg": "no"  },
+  ]
 
   var TandooriIndianBread = 
   [
@@ -248,6 +271,15 @@ function App() {
     {"name":"Mutton Rogan Josh",price:"270" , "isVeg": "no"  },
     {"name":"Andhra Mutton Curry",price:"290" , "isVeg": "no"  },
   ]
+  var chitti = 
+  [
+    {"name":"Chittimuthyal Mutton Biriyani (Single)",price:"180" , "isVeg": "no"  },
+    {"name":"Chittimuthyal Mutton Biriyani (Full)",price:"250" , "isVeg": "no"  },
+    {"name":"Chittimuthyal Chiken Biriyani (Single)",price:"120" , "isVeg": "no"  },
+    {"name":"Chittimuthyal Chiken Biriyani (Full)",price:"170" , "isVeg": "no"  },
+    {"name":"Mana Inti Mutton Biriyani",price:"180" , "isVeg": "no"  },
+    {"name":"Mana Chiken Mutton Biriyani",price:"99" , "isVeg": "no"  },
+  ]
 
 
   var Beverages = 
@@ -290,7 +322,8 @@ function App() {
           <ExtrasWithoutType subtype="Veg" items={RiceDelightsVeg} ></ExtrasWithoutType>
           <ExtrasWithoutType subtype="Curd" items={RiceDelightsCurd} ></ExtrasWithoutType>
 
-          <Extras type="Non-Veg Rice Delights" items={emptyItems} />
+          <Extras type="Non-Veg Rice Delights" items={nonVegRice} />
+          <ExtrasWithoutType subtype="Chitti Muthyal Biriyani" items={chitti} ></ExtrasWithoutType>
 
 
           <Extras type="Beverages" items={Beverages} />
