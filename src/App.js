@@ -290,6 +290,9 @@ function App() {
   ]
   return (
     <>
+    <div>
+      
+    </div>
     <Provider>
       <div className="menu">
       <Extras type="Salads" items={salads} />
